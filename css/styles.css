@@ -1,0 +1,54 @@
+body {
+	font-family: "Roboto";
+	font-style: normal;
+	color: #2e2f42;
+}
+
+.header-logo {
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 24px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	text-decoration: none;
+}
+.header-logo-web {
+	color: #4d5ae5;
+}
+
+.header-navigation-item {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+
+.header-contacts {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.header-contacts-mail,
+.header-contacts-phone {
+	text-decoration: none;
+}
+
+.main-banner-slogan {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 1.07;
+	color: #ffffff;
+}
+.main-banner-btn {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.18;
+	color: #ffffff;
+	cursor: pointer;
+}
