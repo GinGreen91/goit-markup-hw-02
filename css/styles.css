@@ -20,22 +20,34 @@ body {
 .header-logo-web {
 	color: #4d5ae5;
 }
-.header-navigation-list,
-.header-navigation-item,
-.header-link {
+
+.header-navigation-item {
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 1.5;
-	list-style-type: none;
 	letter-spacing: 0.02em;
+}
+
+.header-contacts-link {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 	text-decoration: none;
 }
 
-.header-link{}
+.header-navigation-link {
+	text-decoration: none;
+}
 
-.header-link:hover,
-.header-link:focus {
+.header-navigation-link:hover,
+.header-navigation-link:focus {
 	color: #434455;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+	color: #4d5ae5;
 }
 
 .header-contacts-mail,
@@ -71,10 +83,11 @@ body {
 }
 .features-list,
 .activities-list,
-.team-list {
+.team-list,
+.header-navigation-list {
 	list-style-type: none;
 }
-.features-subtitle,
+.features-title,
 .team-member-name {
 	font-weight: 600;
 	font-size: 20px;
@@ -124,4 +137,3 @@ body {
 	letter-spacing: 0.02em;
 	color: #e7e9fc;
 }
-0
