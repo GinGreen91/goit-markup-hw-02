@@ -1,54 +1,127 @@
 body {
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	color: #2e2f42;
 }
+/*-------HEADER------*/
 
 .header-logo {
 	font-family: "Raleway";
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 24px;
-
+	line-height: 1.33;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-
 	text-decoration: none;
 }
+
 .header-logo-web {
 	color: #4d5ae5;
 }
-
-.header-navigation-item {
+.header-navigation-list,
+.header-navigation-item,
+.header-link {
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 1.5;
+	list-style-type: none;
 	letter-spacing: 0.02em;
 	text-decoration: none;
 }
 
-.header-contacts {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
+.header-link{}
+
+.header-link:hover,
+.header-link:focus {
+	color: #434455;
 }
+
 .header-contacts-mail,
 .header-contacts-phone {
+	font-size: 16px;
+	line-height: 1.5;
 	text-decoration: none;
 }
+/*------MAIN STUDIO PAGE-------*/
 
 .main-banner-slogan {
 	font-weight: 600;
 	font-size: 56px;
 	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
 	color: #ffffff;
 }
+
 .main-banner-btn {
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 1.18;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
 	color: #ffffff;
-	cursor: pointer;
 }
+
+.main-banner-btn:hover,
+.main-banner-btn:focus {
+	color: #ffffff;
+}
+.features-list,
+.activities-list,
+.team-list {
+	list-style-type: none;
+}
+.features-subtitle,
+.team-member-name {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.subtitle-description,
+.job-title {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.activities-title,
+.team-title {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+
+/*------FOOTER-------*/
+
+.fotter-logo {
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #f4f4fd;
+	text-decoration: none;
+}
+
+.footer-logo-web {
+	color: #4d5ae5;
+}
+
+.footer-text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #e7e9fc;
+}
+0
