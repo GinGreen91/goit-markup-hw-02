@@ -2,6 +2,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	color: #2e2f42;
+	background-color: #ffffff;
 }
 /*-------HEADER------*/
 
@@ -58,6 +59,10 @@ body {
 }
 /*------MAIN STUDIO PAGE-------*/
 
+.main-banner {
+	background: #2e2f42;
+}
+
 .main-banner-slogan {
 	font-weight: 600;
 	font-size: 56px;
@@ -75,6 +80,7 @@ body {
 	align-items: center;
 	letter-spacing: 0.04em;
 	color: #ffffff;
+	cursor: pointer;
 }
 
 .main-banner-btn:hover,
@@ -113,7 +119,13 @@ body {
 	text-transform: capitalize;
 }
 
+.section-team {
+	background: #f4f4fd;
+}
 /*------FOOTER-------*/
+.footer {
+	background: #2e2f42;
+}
 
 .fotter-logo {
 	font-weight: 800;
@@ -136,4 +148,49 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #e7e9fc;
+}
+
+/*------MAIN PORTFOLIO PAGE-------*/
+
+.filter-portfolio-item,
+.project-item {
+	list-style-type: none;
+}
+
+.project-link {
+	text-decoration: none;
+}
+
+.filter-portfolio-btn {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.text-on-image {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #f4f4fd;
+}
+
+.project-title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.project-type {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 }
