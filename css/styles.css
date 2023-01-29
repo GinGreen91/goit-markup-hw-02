@@ -10,7 +10,6 @@
 
 body {
 	font-family: "Roboto", sans-serif;
-	font-style: normal;
 	color: var(--dark);
 	background-color: var(--white);
 }
@@ -35,10 +34,11 @@ body {
 }
 
 .header-navigation-item {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+
 }
 
 .header-contacts-link {
@@ -51,6 +51,7 @@ body {
 
 .header-navigation-link {
 	text-decoration: none;
+		color: var(--dark);
 }
 
 .header-navigation-link:hover,
@@ -73,7 +74,7 @@ body {
 }
 
 .main-banner-slogan {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
@@ -83,7 +84,7 @@ body {
 
 .main-banner-btn {
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.18;
 	display: flex;
@@ -99,6 +100,7 @@ body {
 .main-banner-btn:hover,
 .main-banner-btn:focus {
 	color: var(--white);
+	background-color: var(--primary-brand);
 }
 
 .main-banner-btn:active {
@@ -128,7 +130,7 @@ body {
 }
 .features-subtitle,
 .team-member-name {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -144,7 +146,7 @@ body {
 
 .activities-title,
 .team-title {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
@@ -153,7 +155,7 @@ body {
 }
 
 .section-team {
-	background: var(--white);
+	background: #f4f4fd;
 }
 /*------FOOTER-------*/
 .footer {
@@ -197,7 +199,7 @@ body {
 
 .filter-portfolio-btn {
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.5;
 	display: flex;
@@ -216,15 +218,9 @@ body {
 	color: var(--white);
 	background-color: var(--primary-brand);
 }
-.text-on-image {
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: #f4f4fd;
-}
 
 .project-title {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
